@@ -1,0 +1,82 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 3px solid black;
+    height: 8vh;
+  }
+  
+  .left-items {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    gap: 4vh;
+}
+.log{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .left-items > div {
+    margin-right: 15px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 40%; /* Adjust the max-width as needed */
+  }
+  
+  .search-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-items {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+  }
+  
+  .right-items > button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .signup-button {
+    background-color: #ffc107;
+    color: #000;
+  }
+  

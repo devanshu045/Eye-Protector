@@ -1,0 +1,24 @@
+/* HeadingSection.css */
+.heading-section {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    width: 80%;
+    margin: 0 auto; /* Center the box horizontally within its parent */
+    border: 1px solid #ccc; /* Optional border for visualization */
+    padding: 20px;
+  }
+  
+  .heading {
+    flex: 1; /* Takes up 50% of the available space */
+    padding: 10px;
+  }
+  
+  .image {
+    flex: 1; /* Takes up 50% of the available space */
+    padding: 10px;
+    text-align: right; /* Align the image to the right */
+  }
+  
+  /* Add any additional styling you need for your heading and image */
+  
